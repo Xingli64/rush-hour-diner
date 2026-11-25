@@ -1,5 +1,11 @@
 # 🐸 Rush Hour Diner — Cooking Game
 
+[![make.fun bounty](https://make.fun/badge/best-cooking-game-20261125-0137.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137)
+[![rank](https://make.fun/badge/best-cooking-game-20261125-0137/Xingli64/rush-hour-diner/rank.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137)
+[![reward](https://make.fun/badge/best-cooking-game-20261125-0137/Xingli64/rush-hour-diner/reward.svg)](https://make.fun/bounty/best-cooking-game-20261125-0137)
+
+Entered in the make.fun bounty [“Make the best cooking game”](https://make.fun/bounty/best-cooking-game-20261125-0137).
+
 A complete, original cooking game that runs **fully offline** in a desktop browser. No dependencies, no build step: open `game/index.html` and play.
 
 ## How to play
@@ -26,4 +32,4 @@ A complete, original cooking game that runs **fully offline** in a desktop brows
 
 ## Entry
 
-Built for the make.fun bounty **“Make the best cooking game”** (https://make.fun/bounty/best-cooking-game-20261125-0137).
+Built for the make.fun bounty **[“Make the best cooking game”](https://make.fun/bounty/best-cooking-game-20261125-0137)**.
