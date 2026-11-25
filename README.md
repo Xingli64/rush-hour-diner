@@ -1,6 +1,6 @@
 # 🐸 Rush Hour Diner — Cooking Game
 
-A complete, original cooking game in a **single HTML file**. No dependencies, no build step, no network — just open `index.html` in a desktop browser and play offline.
+A complete, original cooking game that runs **fully offline** in a desktop browser. No dependencies, no build step: open `game/index.html` and play.
 
 ## How to play
 
@@ -16,9 +16,13 @@ A complete, original cooking game in a **single HTML file**. No dependencies, no
 - Scoring: per-layer price + perfect-patty bonus + speed/combo bonus.
 - Star rating per day based on coins earned vs. target.
 
-## Tech
+## Repository layout (make.fun hand-in)
 
-Vanilla HTML/CSS/JavaScript, zero external assets (works fully offline). Game loop with `requestAnimationFrame`, grill/fryer timing windows, patience system, combo system.
+- `game/index.html` — the whole game (vanilla HTML/CSS/JS, zero external assets).
+- `screenshots/` — real screenshots of the game running.
+- `main.ts` — Node 22 hand-in program: copies `game/` and `screenshots/` to the output directory and writes `dossier.json` using the vendored library. Check locally with `MAKEFUN_OUTPUT_DIR=out node main.ts`.
+- `vendor/makefun-game.ts` — make.fun's game library, vendored unmodified.
+- `LICENSE` — MIT.
 
 ## Entry
 
